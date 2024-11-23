@@ -337,4 +337,8 @@ span {
     width: 157px;
     height: 157px;
   }
+
+  span {
+    font-size: 10px;
+  }
 }
