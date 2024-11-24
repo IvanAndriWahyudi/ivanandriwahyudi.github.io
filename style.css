@@ -241,7 +241,14 @@ img {
 .back-content {
   transform: rotateY(180deg);
   font-family: "Dancing Script", cursive;
-  font-size: 25px;
+}
+
+.font-size-span {
+  font-size: 35px;
+}
+
+.font-size-span2 {
+  font-size: 28px;
 }
 
 .back-content span {
@@ -259,6 +266,21 @@ img {
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes heartAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
   }
 }
 
@@ -353,7 +375,11 @@ img {
     width: 157px;
     height: 157px;
   }
-  .back-content {
-    font-size: 10px;
+
+  .font-size-span {
+    font-size: 18px;
+  }
+  .font-size-span2 {
+    font-size: 13px;
   }
 }
