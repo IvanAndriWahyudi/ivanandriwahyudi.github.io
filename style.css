@@ -240,6 +240,26 @@ img {
 
 .back-content {
   transform: rotateY(180deg);
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+
+.back-content span {
+  display: inline-block;
+  opacity: 0; /* Awalnya transparan */
+  transform: translateY(20px); /* Mulai dari bawah */
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .flipped .front,
@@ -300,10 +320,6 @@ img {
   z-index: 1;
 } */
 
-span {
-  font-size: 20px;
-  font-weight: bold;
-}
 .tekswhite {
   text-align: center;
   /* color: rgb(182, 159, 176); */
@@ -336,9 +352,5 @@ span {
   .book {
     width: 157px;
     height: 157px;
-  }
-
-  span {
-    font-size: 10px;
   }
 }
