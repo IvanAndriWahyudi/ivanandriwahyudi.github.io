@@ -51,7 +51,7 @@ const events = [
     },
   },
   {
-    time: 3.5,
+    time: 4,
     action: () => {
       const text = "Katakan Cinta";
       animasiTulisan(text, b1Content);
