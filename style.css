@@ -353,4 +353,7 @@ img {
     width: 157px;
     height: 157px;
   }
+  .back-content {
+    font-size: 10px;
+  }
 }
