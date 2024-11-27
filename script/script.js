@@ -196,10 +196,10 @@ audio.addEventListener("timeupdate", () => {
   });
 });
 
-// Reset processedTimes jika audio dimulai ulang atau di-*seek*
-audio.addEventListener("seeked", () => {
-  processedTimes.clear();
-});
+// // Reset processedTimes jika audio dimulai ulang atau di-*seek*
+// audio.addEventListener("seeked", () => {
+//   processedTimes.clear();
+// });
 
 function closeBook(isAtBeginning) {
   if (isAtBeginning) {
